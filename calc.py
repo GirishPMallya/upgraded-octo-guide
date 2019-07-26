@@ -5,11 +5,11 @@ def add(x,y):
 def sub(x,y):
 	return x-y
 
-def mul(x,y):
-	return x*y
+def cub(x):
+	return (x**3)
 
-def div(x,y):
-	return int(x/y)
+def sqr(x):
+	return int(x**2)
 
 
 def main():
@@ -18,8 +18,8 @@ def main():
 	y=2
 	print(add(x,y))
 	print(sub(x,y))
-	print(mul(x,y))
-	print(div(x,y))
+	print(sqr(y))
+	print(cub(y))
 
 
 
