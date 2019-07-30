@@ -12,6 +12,9 @@ def div(x,y):
 	return int(x/y)
 
 
+def oddorever(y)
+        return y%2
+
 def main():
 	"this is calculator app"
 	x=1
@@ -20,7 +23,7 @@ def main():
 	print(sub(x,y))
 	print(mul(x,y))
 	print(div(x,y))
-
+        print(oddoreven(y))
 
 
 main()
