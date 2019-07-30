@@ -12,6 +12,13 @@ def div(x,y):
 	return int(x/y)
 
 
+def doubleit(x)
+        return x*2
+
+
+def tripleit(x)
+        return x*3
+
 def main():
 	"this is calculator app"
 	x=1
@@ -20,7 +27,8 @@ def main():
 	print(sub(x,y))
 	print(mul(x,y))
 	print(div(x,y))
-
+        print(doubleit(y))
+        print(tripleit(y))
 
 
 main()
